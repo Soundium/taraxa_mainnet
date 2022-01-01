@@ -1,5 +1,5 @@
 #!/bin/bash
-# wget -q -O taraxa.sh https://github.com/Soundium/taraxa_mainnet/taraxa_mainnet.sh && chmod +x taraxa_mainnet.sh && sudo /bin/bash taraxa_mainnet.sh
+# wget -q -O taraxa_mainnet.sh https://github.com/Soundium/taraxa_mainnet/taraxa_mainnet.sh && chmod +x taraxa_mainnet.sh && sudo /bin/bash taraxa_mainnet.sh
 
 
 exists()
