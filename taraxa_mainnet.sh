@@ -1,5 +1,5 @@
 #!/bin/bash
-# wget -q -O taraxa_mainnet.sh https://github.com/Soundium/taraxa_mainnet/taraxa_mainnet.sh && chmod +x taraxa_mainnet.sh && sudo /bin/bash taraxa_mainnet.sh
+# wget -q -O taraxa_mainnet.sh https://github.com/Soundium/taraxa_mainnet/blob/main/taraxa_mainnet.sh && chmod +x taraxa_mainnet.sh && sudo /bin/bash taraxa_mainnet.sh
 
 
 exists()
@@ -23,7 +23,7 @@ function setupVars {
 
 function setupSwap {
 	echo -e '\n\e[42mSet up swapfile\e[0m\n'
-	curl -s https://github.com/Soundium/taraxa_mainnet/swap4.sh | bash
+	curl -s https://github.com/Soundium/taraxa_mainnet/blob/main/swap4.sh | bash
 }
 
 function installDocker {
