@@ -22,7 +22,7 @@ You also need to provide proof that this node is yours by running the following 
 
 <b> docker exec mainnet_node_1 taraxa-sign sign --wallet /opt/taraxa_data/conf/wallet.json </b>
 
-Per usual this name may be different in different environments, so to be sure you've got the right container name, just execute docker ps. 
+As usual, this name may be different in different environments, so to be sure you've got the right container name, just execute docker ps. 
 
 Enter the result of the command in the Proof of node ownership input field.
 To register your node, go to the community portal and register your node (In the case of the example, the address would be <b>0xb7669cc00f55b02ea66e0d944e904e8e9711b243</b>)
