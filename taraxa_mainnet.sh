@@ -29,8 +29,6 @@ function setupSwap {
 function installDocker {
 	wget -O get-docker.sh https://get.docker.com 
 	sudo sh get-docker.sh
-	# sudo apt install -y docker-compose docker.io < "/dev/null"
-	# sudo apt install -y docker-compose < "/dev/null"
 	wget https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64
 	chmod +x docker-compose-Linux-x86_64
 	mv docker-compose-Linux-x86_64 /usr/bin/docker-compose
