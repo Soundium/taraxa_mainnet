@@ -2,7 +2,7 @@
 
 One-line installation script is available:
 
-<b> wget -q -O taraxa_mainnet.sh https://github.com/Soundium/taraxa_mainnet/taraxa_mainnet.sh && chmod +x taraxa_mainnet.sh && sudo /bin/bash taraxa_mainnet.sh </b>
+<b> wget -q -O taraxa_mainnet.sh https://github.com/Soundium/taraxa_mainnet/blob/main/taraxa_mainnet.sh && chmod +x taraxa_mainnet.sh && sudo /bin/bash taraxa_mainnet.sh </b>
 
 Choose you wanted option (for example option 1 – simply installing the node) and wait for installation to complete.
 
