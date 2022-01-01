@@ -8,7 +8,7 @@ Choose you wanted option (for example option 1 – simply installing the node) a
 
 To register your node you need to get its address, to do this execute the following command:
 
-<b> docker exec taraxa_compose_node_1 cat /opt/taraxa_data/conf/wallet.json </b>
+<b> docker exec mainnet_node_1 cat /opt/taraxa_data/conf/wallet.json </b>
 
 Output should be like the following:
 
