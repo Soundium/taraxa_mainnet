@@ -52,9 +52,9 @@ function installDeps {
 function installSoftware {
 	echo -e '\n\e[42mInstall software\e[0m\n' && sleep 1
 	cd $HOME
-  mkdir -p mainnet/config
+        mkdir -p mainnet/config
 	cd $HOME/mainnet
-  wget https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.yml
+        wget https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.yml
 	echo -e '\n\e[42mRunning\e[0m\n' && sleep 1
 	sudo docker-compose pull
 	sudo docker-compose up -d --force-recreate
